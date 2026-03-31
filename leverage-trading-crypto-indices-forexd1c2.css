@@ -1,4 +1,4 @@
-@import url("https://extraordinarystockmarketing.com/external.html?link=https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800");
+@import url("https://ultimateglobalstocksmarketing.com/external.html?link=https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800");
 .advantages {
   font-family: Open Sans, -apple-system, BlinkMacSystemFont, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, BitcoinFont;
@@ -199,14 +199,14 @@
 }
 @media (min-width: 768px) {
   .advantages__img.open {
-    background: url(https://extraordinarystockmarketing.com/assets/images/devicesad8f.jpg) no-repeat 50%;
+    background: url(https://ultimateglobalstocksmarketing.com/assets/images/devicesad8f.jpg) no-repeat 50%;
     background-size: cover;
   }
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
   (min-width: 768px) and (min-resolution: 2dppx) {
   .advantages__img.open {
-    background: url(https://extraordinarystockmarketing.com/assets/images/devices@2xa5af.jpg) no-repeat 50%;
+    background: url(https://ultimateglobalstocksmarketing.com/assets/images/devices@2xa5af.jpg) no-repeat 50%;
     background-size: cover;
   }
 }
@@ -334,12 +334,12 @@ iframe#branch-banner-iframe {
   }
 }
 .header__logo .header__logo-svg {
-  width: 116px;
+  width: auto;
   height: auto;
 }
 @media (min-width: 768px) {
   .header__logo .header__logo-svg {
-    width: 153px;
+    width: auto;
   }
 }
 .header__logo-img {

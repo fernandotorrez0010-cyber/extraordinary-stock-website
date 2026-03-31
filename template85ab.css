@@ -82,12 +82,12 @@ iframe#branch-banner-iframe {
   }
 }
 .header__logo .header__logo-svg {
-  width: 116px;
+  width: auto;
   height: auto;
 }
 @media (min-width: 768px) {
   .header__logo .header__logo-svg {
-    width: 153px;
+    width: auto;
   }
 }
 .header__logo-img {
