@@ -51,7 +51,7 @@
 .prs-text > p a,
 .prs-text a {
   color: #59b300;
-  text-decoration: none;
+  
 }
 .prs-text > p a:hover,
 .prs-text a:hover {
@@ -93,7 +93,7 @@
 .prs-link {
   color: #59b300;
   cursor: pointer;
-  text-decoration: none;
+  
 }
 .prs-link {
   font-weight: 400;
@@ -219,7 +219,7 @@ button.prs-link {
   padding: 7px 40px;
   white-space: nowrap;
   opacity: 0.9;
-  text-decoration: none;
+  
 }
 .btn:hover {
   opacity: 1;
@@ -1389,7 +1389,7 @@ iframe#branch-banner-iframe {
   white-space: nowrap;
   font-size: 1rem;
   color: #fff;
-  text-decoration: none;
+  
   display: flex;
   align-items: center;
 }
@@ -1482,7 +1482,7 @@ iframe#branch-banner-iframe {
   height: 100%;
   color: #fff;
   padding: 28px 8px;
-  text-decoration: none;
+  
   font-size: 1rem;
   line-height: 1rem;
   position: relative;
@@ -1636,7 +1636,7 @@ body.branch-banner-is-active .mobmenu--opened {
   min-height: 3.75rem;
   padding: 0 2rem 0 1rem;
   text-align: left;
-  text-decoration: none;
+  
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1680,7 +1680,7 @@ body.branch-banner-is-active .mobmenu--opened {
   display: block;
   height: 100%;
   padding-left: 2rem;
-  text-decoration: none;
+  
   width: 100%;
 }
 .mobmenu__section--opened > .mobmenu__section-item {
@@ -1902,7 +1902,7 @@ body.branch-banner-is-active .mobmenu--opened {
   color: #515151;
 }
 .link-to-leverage {
-  text-decoration: none;
+  
   color: #59b300;
   cursor: pointer;
   font-weight: 300;
@@ -1984,7 +1984,7 @@ body.branch-banner-is-active .mobmenu--opened {
   display: block;
   color: #fff;
   font-size: 1rem;
-  text-decoration: none;
+  
 }
 .footer__link:hover {
   text-decoration: underline;
@@ -2028,7 +2028,7 @@ body.branch-banner-is-active .mobmenu--opened {
 }
 .footer__address a {
   color: #fff;
-  text-decoration: none;
+  
 }
 .footer__address a:hover {
   text-decoration: underline;
@@ -2140,7 +2140,7 @@ body.branch-banner-is-active .mobmenu--opened {
   margin-bottom: 0;
 }
 .footer .footer__menu-mainmenu li a {
-  text-decoration: none;
+  
   font-size: 0.6875rem;
   font-weight: 400;
   color: #fff;
@@ -2838,4 +2838,36 @@ body.branch-banner-is-active .mobmenu--opened {
 }
 .action-button-container {
   margin-bottom: 50px;
+}
+.header__logo a { text-decoration: none; }
+.logo-brand {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+.logo-brand__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.logo-brand__text {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(90deg, #59b300, #22c55e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .logo-brand__text { font-size: 16px; }
 }
