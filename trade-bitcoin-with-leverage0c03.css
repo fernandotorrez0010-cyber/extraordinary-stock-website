@@ -197,13 +197,16 @@ iframe#branch-banner-iframe {
   }
 }
 .header__logo .header__logo-svg {
-  width: auto;
+  width: 280px;
   height: auto;
+  margin-top: 10px;
 }
 @media (min-width: 768px) {
   .header__logo .header__logo-svg {
-    width: auto;
-  }
+  width: 280px;
+  height: auto;
+  margin-top: 10px;
+}
 }
 .header__logo-img {
   width: 116px;
