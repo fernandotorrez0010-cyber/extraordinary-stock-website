@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /dashboard/
+
+# Serve existing files normally
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirect all other requests to React
+RewriteRule ^ index.html [L]
